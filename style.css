@@ -2,12 +2,14 @@ body {
     background-size: 100%;
     background-image: url(las_vegas.png);
     background-repeat: no-repeat;
+    max-width: 100%;
 }
 
 h1 {
-    color: darkviolet;
-    font: Comic
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .conjunto_de_tres div {
     width: 100px;
     height: 100px;
