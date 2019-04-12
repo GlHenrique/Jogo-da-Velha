@@ -6,40 +6,41 @@
 	<meta charset="utf-8">
 	<title>Jogo da Velha</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <body>
 	<center>
+		<br>
 		<h1>VAMOS NOS DIVERTIR!</h1>
 		<h1>;)</h1>
 		<br>
 	</center>
 	<center>
 		<button onclick="newgame()">JOGAR NOVAMENTE</button>
+		<br>
 	</center>
 	<p></p>
 
 	<center>
+		<br>
 		<div id="estrutura_completa">
 			<div class="conjunto_de_tres">
 				<div class="ret" id="1" onclick="play('1')"></div>
 				<div class="ret" id="2" onclick="play('2')"></div>
 				<div class="ret" id="3" onclick="play('3')"></div>
 			</div>
-
 			<div class="conjunto_de_tres">
 				<div class="ret" id="4" onclick="play('4')"></div>
 				<div class="ret" id="5" onclick="play('5')"></div>
 				<div class="ret" id="6" onclick="play('6')"></div>
 			</div>
-
 			<div class="conjunto_de_tres">
 				<div class="ret" id="7" onclick="play('7')"></div>
 				<div class="ret" id="8" onclick="play('8')"></div>
 				<div class="ret" id="9" onclick="play('9')"></div>
 			</div>
-
 		</div>
 	</center>
 	<script type="text/javascript" src="logica.js"></script>

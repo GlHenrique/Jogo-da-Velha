@@ -6,11 +6,11 @@ var vet = [
     ["", "", ""]
 ];
 var velha = "DEU VELHA!!!"
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 9; i++) { //CONVERSAO DE NUMBER P/ STRING
     (document.getElementById(toString(i)).innerHTML = "");
 }
 function play(id) {
-    if (fim == "x" || fim == "o") {
+    if (fim == "x" || fim == "o") {   //TRAVAMENTO DE UMA CASA
         return null;
     }
     const el = document.getElementById(id);
@@ -22,7 +22,7 @@ function play(id) {
             el.innerHTML = "<img src= 'x1.png' class='imagem'>";
             var imagem = "x";
         }
-    switch (parseInt(id)) {
+    switch (parseInt(id)) { //REFERENTE AS LINHAS, ELE VAI ASSIMILIAR OS IDs (1,2,3,4,5....) COM OS VETORES
         case 1:
         case 2:
         case 3:
